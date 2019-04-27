@@ -1,0 +1,21 @@
+{
+  "name": "Banana for Scale",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Places a US dollar bill against an Amazon product image to show the scale of the item.",
+  "homepage_url": "https://github.com/Decagon/banana-for-scale",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Banana-ify"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
